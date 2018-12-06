@@ -1,0 +1,46 @@
+﻿Build started 8/5/2017 7:11:35 PM.
+     1>Project "C:\Users\Evean\Downloads\iGraphics Project\iGraphics Project\iGraphics\iMain (2) - Copy.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Oy- /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"- Win32 Debug\\" /Fd"- Win32 Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "iMain (2) - Copy.cpp"
+         iMain (2) - Copy.cpp
+     1>c:\users\evean\downloads\igraphics project\igraphics project\igraphics\iGraphics.h(78): error C2065: 'AUX_RGBImageRec' : undeclared identifier
+     1>c:\users\evean\downloads\igraphics project\igraphics project\igraphics\iGraphics.h(78): error C2065: 'TextureImage' : undeclared identifier
+     1>c:\users\evean\downloads\igraphics project\igraphics project\igraphics\iGraphics.h(80): error C2065: 'TextureImage' : undeclared identifier
+     1>c:\users\evean\downloads\igraphics project\igraphics project\igraphics\iGraphics.h(80): error C3861: 'auxDIBImageLoad': identifier not found
+     1>c:\users\evean\downloads\igraphics project\igraphics project\igraphics\iGraphics.h(83): error C2065: 'TextureImage' : undeclared identifier
+     1>c:\users\evean\downloads\igraphics project\igraphics project\igraphics\iGraphics.h(83): error C2227: left of '->sizeX' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\evean\downloads\igraphics project\igraphics project\igraphics\iGraphics.h(83): error C2227: left of '->sizeY' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\evean\downloads\igraphics project\igraphics project\igraphics\iGraphics.h(83): error C2227: left of '->data' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\evean\downloads\igraphics project\igraphics project\igraphics\iGraphics.h(83): error C2660: 'glDrawPixels' : function does not take 3 arguments
+     1>c:\users\evean\downloads\igraphics project\igraphics project\igraphics\iGraphics.h(85): error C2065: 'TextureImage' : undeclared identifier
+     1>c:\users\evean\downloads\igraphics project\igraphics project\igraphics\iGraphics.h(85): error C2227: left of '->data' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\evean\downloads\igraphics project\igraphics project\igraphics\iGraphics.h(86): error C2065: 'TextureImage' : undeclared identifier
+     1>c:\users\evean\downloads\igraphics project\igraphics project\igraphics\iGraphics.h(198): error C2668: 'acos' : ambiguous call to overloaded function
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1147): could be 'long double acos(long double) throw()'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1031): or       'float acos(float) throw()'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(474): or       'double acos(double)'
+                 while trying to match the argument list '(int)'
+     1>c:\users\evean\downloads\igraphics project\igraphics project\igraphics\iGraphics.h(217): error C2668: 'acos' : ambiguous call to overloaded function
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1147): could be 'long double acos(long double) throw()'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1031): or       'float acos(float) throw()'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(474): or       'double acos(double)'
+                 while trying to match the argument list '(int)'
+     1>c:\users\evean\downloads\igraphics project\igraphics project\igraphics\iGraphics.h(233): error C2668: 'acos' : ambiguous call to overloaded function
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1147): could be 'long double acos(long double) throw()'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1031): or       'float acos(float) throw()'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(474): or       'double acos(double)'
+                 while trying to match the argument list '(int)'
+     1>c:\users\evean\downloads\igraphics project\igraphics project\igraphics\iGraphics.h(249): error C2668: 'acos' : ambiguous call to overloaded function
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1147): could be 'long double acos(long double) throw()'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1031): or       'float acos(float) throw()'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(474): or       'double acos(double)'
+                 while trying to match the argument list '(int)'
+     1>Done Building Project "C:\Users\Evean\Downloads\iGraphics Project\iGraphics Project\iGraphics\iMain (2) - Copy.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.42
